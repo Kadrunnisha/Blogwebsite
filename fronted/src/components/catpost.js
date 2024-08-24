@@ -47,7 +47,7 @@ const Catpost = () => {
         posts.map((post) => (
           <div key={post._id} className="blog-post">
            
-            <div className="im"><img src={`http://localhost:8001${post.image}`} alt={post.heading} /></div>
+            <div className="im"><img src={`${post.image}`} alt={post.heading} /></div>
             <div className="contant">
                    <h2>{post.heading}</h2>
                    <p className="p">{post.content.substring(0,500)}....</p>
