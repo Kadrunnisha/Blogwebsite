@@ -1,0 +1,168 @@
+/* body{
+    background-color: #294B29;
+} */
+.login_body{
+   
+    /* border: 4px solid black; */
+    
+  height: 39.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+ .login_body .login_page{
+    /* margin-top: 60px; */
+  
+    position: relative;
+    /* position: absolute; */
+    
+    height: 80%;
+    width: 30rem;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+   z-index: 0;
+   background-color: #DFD3C3;
+   box-shadow: 0 3px 6px rgba(255, 252, 252, 0.979), 0 3px 6px rgba(36, 36, 36, 0.23);
+
+}
+.login_page .cut{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+    border-bottom: 0.05px solid rgb(206, 204, 204);
+    color: rgb(28, 18, 18);
+    
+}
+.login_page .cut .cut_cross{
+    /* border: 1px solid black; */
+    height: 20px;
+   font: 0.1em sans-serif;
+   font-weight: 100;
+
+}
+.label{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.05px solid rgb(206, 204, 204);
+    padding-bottom: 10px;
+}
+.label p{
+    font: 2em sans-serif;
+    font-weight: 600;
+    color: rgb(28, 18, 18);
+}
+.para{
+    /* border: 1px solid black; */
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.05px solid rgb(206, 204, 204);
+    height: 3rem;
+}
+.para p{
+    /* border: 1px solid black; */
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    /* border: 1px solid black; */
+   
+}
+.form form{
+    display: flex;
+    
+    flex-direction: column;
+    padding-left: 30px;
+    justify-content: center;
+  
+}
+.email{
+    /* border: 1px solid black; */
+    height:4rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+.email label{
+    
+    font-size: 21px;
+    font-weight: 500;
+    margin-right: 20px;
+    color: rgb(28, 18, 18);
+}
+.email input{
+    margin: 0px;
+    height: 2.2rem;
+    width: 18rem;
+    border-radius: 5px;
+    background-color:  #f7f3f3;
+    padding-left: 10px;
+    border: 0.000001px solid rgb(236, 236, 236);
+}
+
+.eye{
+    /* border: 1px solid black; */
+    position: absolute;
+    right: 40px;
+    font: 0.9em sans-serif;
+    color: rgb(116, 115, 115);
+}
+.check_box{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 20px;
+    height: 2rem;
+    align-items: center;
+}
+ .r{
+    margin-left: 10px;
+    color: rgb(28, 18, 18);
+}
+ .check{
+    /* border: 4px solid black; */
+}
+.but_login{
+    /* border: 1px solid black; */
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.but_login input{
+    height: 35px;
+    width: 85px;
+    background-color:   rgb(28, 18, 18);;
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    border-radius: 5px;
+}
+.newuser{
+    border-top: 0.05px solid rgb(206, 204, 204);
+    /* border: 1px solid black; */
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newuser p{
+    font-size: 18px;
+    font-weight: 500;
+    /* border: 1px solid black; */
+
+}

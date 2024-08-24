@@ -1,0 +1,66 @@
+.replace_navbar{
+    height: 6rem;
+}
+.header{
+    /* border: 2px solid black; */
+    top: 0px;
+    display: flex;
+    height: 6rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #DFD3C3;
+    box-shadow: 0 3px 6px rgba(255, 252, 252, 0.979), 0 3px 6px rgba(36, 36, 36, 0.23);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}    
+.cat{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+.logo{
+    /* border: 2px solid black; */
+
+}
+.logo .l {
+    text-decoration: inherit;
+     font-size: 25px;
+     font-weight: 600;
+     color: rgb(28, 18, 18);
+}
+.c{
+    text-decoration: inherit;
+    font-size: 19px;
+     font-weight: 600;
+     color: rgb(28, 18, 18);
+}
+.search{
+    /* border: 2px solid black; */
+    width: 23%;
+    height: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-radius: 5px;
+    /* padding-left: 5px; */
+    background-color: rgb(239, 237, 237);
+}
+.search input{
+    width: 85%;
+    height: 85%;
+    background-color: rgb(239, 237, 237);
+    background-color: transparent;
+    border: 0px solid;
+    padding-left: 15px;
+}
+.search input:focus{
+    outline: none;
+}
+.i{
+    /* border: 2px solid black; */
+    height: 20px; 
+    color: rgb(28, 18, 18);
+    
+}
