@@ -36,7 +36,7 @@ app.use(express.static(path.join(__dirname,"../fronted/build")));
 app.get("*",(req,res)=>{
     res.sendFile(path.join(__dirname,"../fronted/build/index.html"));
 })
-
-app.listen(8001, () => {
+const port=process.env.PORT || 8001
+app.listen(port, () => {
   console.log("Server started on port 8001");
 });
